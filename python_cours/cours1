@@ -1,0 +1,33 @@
+une variable peut contnir un int ,float,string
+< > == <= >= != 
+** puissance
+operateur booleen and == &&  or
+ch ="bonjour" -----> ca fait des cases qui start a 0
+print ch # ----> bonjour
+print ch[2] # -----> n
+print seq(0:3] ------> bon
+print seq[3:] ------> jour
+print seq[3:7] -------> jour
+print seq 2000 index out of range
+"A" < "a" == true
+seq1 in seq2
+print c1,c2=== atc gcc
+print c1+c2=== atcgcc
+len(seq) ===> 19
+.upper() mettre en maj
+.lower()
+"AtgCAg".upper()
+"AAAA".capitalize() --->Aaaa
+.swapcase() maj--->min   min ---> maj
+seq2=seq2.upper()
+.find(seq2) revoie l'emplacement de la premiere ocurence dans la chaine ou -1
+.count(seq2)
+pemdas == parenthese exp multi div add substract
+.replace('a','o')
+
+entree sortie 
+input    tt type de donnee "" pour les chaines de char
+raw_input   chaine de caractere uniquement sans ""
+a=input("a=") a= dans la sortie standard 
+b=raw_input("nom=")
+
