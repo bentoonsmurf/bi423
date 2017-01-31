@@ -35,3 +35,17 @@ if tab condition :
 	b=48548
 	caca
 // ici c'est la fin du if parce que c plus les tabs
+if	cond:
+	....
+	...
+else:
+	..
+	...
+// switch ou case 
+if	...:
+	
+	
+elif cond :
+	
+	
+	
