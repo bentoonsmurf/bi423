@@ -1,5 +1,5 @@
 
-
+#  int(vari)
 
 
 i=input("entrer un nombre  ")
