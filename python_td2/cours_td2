@@ -1,0 +1,12 @@
+a= "boujours"
+a= "sayonara"+ a ----->sayonara bonjours
+
+while cond:
+	print (void)a
+
+la position commence a 1 et pas a 0
+
+
+
+
+
