@@ -1,6 +1,5 @@
 
-choix=input("entrer un choix \n 1 pour transcrit \n 2 pour calcul differenciel avec prise en compte des irregularite \n 3 pour danser\n")
-
+choix=0
 while choix !=3:
 	choix=input("entrer un choix \n 1 pour transcrit \n 2 pour calcul differenciel avec prise en compte des irregularite \n 3 pour danser\n")
 
@@ -66,4 +65,5 @@ while choix !=3:
 		
 		
 	else:
-		print ""
+		print "taper 1 2 ou 3 svp"
+
