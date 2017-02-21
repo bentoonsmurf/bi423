@@ -1,0 +1,12 @@
+#lecture
+f=open("sequences.txt")
+ligne=f.readline()
+ligne=f.readline()
+on ne lit que ligne par ligne
+f.close()
+
+#ecriture
+f=open("new.txt,"w")
+f.write("bonjours \n")  # ecrit que des char
+f.close()
+char = str(10)  pour convertir un entier en string (marche avec les nom de variables)

@@ -38,8 +38,9 @@ while seq[i]==transcrit[i]:
 	i=i+1
 	
 if i==len(seq)/2:
-	print "c'est un palindrome bizard"
+	print "c'est un palindrome blizzard"
 else:
-	print "cest pas un palindrome"
+	print "cest pas un palindrome bologique "
 
+# ttactgtaa
 
