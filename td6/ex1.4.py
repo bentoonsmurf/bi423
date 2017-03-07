@@ -13,14 +13,18 @@ seq=seq.lower()
 f.close()
 somme_des_places=""
 
-place_du_motif=seq.find(motif,0)
+i=0
 
-while place_du_motif != -1 :
-	somme_des_places=somme_des_places+" "+str(place_du_motif+1)
-	place_du_motif=seq.find(motif,place_du_motif+1)
+while i<(len(seq)-len(motif)):
+	if seq[i:i+len(motif)] ==motif[0:] :
+		somme_des_places=somme_des_places+" "+str(i+1)
+	i=i+1
+
+
+
 
 if somme_des_places == "" :
-	print "pas de",motif,"dans la chaine"
+	print "pas de",motif,"dans la chaine "
 else :
 	print motif,"est aux places",somme_des_places
 
@@ -29,5 +33,5 @@ fichier2=open("save","w")
 if somme_des_places =="" :
 	fichier2.write("erreur")
 else:
-	fichier2.write(motif+"est aux places"+somme_des_places)
+	fichier2.write(motif+" est aux places"+somme_des_places)
 fichier2.close()
