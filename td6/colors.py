@@ -57,6 +57,5 @@ def warning(text):
 
 def success(text):
     return color(text, bold=True, fg_green=True)
-
-def aoiru(text):
+def ao(text):
     return color(text, bold=True, fg_blue=True)
