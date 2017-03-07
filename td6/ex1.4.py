@@ -16,7 +16,7 @@ somme_des_places=""
 i=0
 
 while i<(len(seq)-len(motif)):
-	if seq[i:i+len(motif)] ==motif[0:] :
+	if seq[i:i+len(motif)] ==motif :
 		somme_des_places=somme_des_places+" "+str(i+1)
 	i=i+1
 
