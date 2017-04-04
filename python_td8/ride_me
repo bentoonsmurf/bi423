@@ -24,6 +24,44 @@ c'est pas un alignement qui arrive frequament
 
 en augmentant le seuil on finit par trouver un acid avec une E value de 72
 	
+-----
+il y a 212 hit
+les E values sont de 0.0
+
+le blats x est completement morceler par ce que on est au niveua 
+d'un genome
+
+par default le genome mute 
+si l'enzyme n'est pas fonctionellle ca reste pas
+c'est au niveau des protein que on les retrouve
+il ya  64 possiblilté de triplé et 20 acide aminé
+il y a des mutations silencieuses
+on peut avoir 70 % de difference mais les meme 
+ce sont les protein qui garde le plus la trace de l'ancetre commun
+car se sont elle qui ont le plus la pression de selection
+
+
+
+AN
+q10 M  stop 189
+G -- -M
+prot 1
+
+
+4 
+
+blastx
+la sequance de depart est une sequance genomique 
+phase codante les une deriere les autres #exon
+
+5
+
+c'est un acide aminé
+de la famille tioredoxin
+100% identité
+evalue 3e-72
+lentgh 135
+
 
 
 
