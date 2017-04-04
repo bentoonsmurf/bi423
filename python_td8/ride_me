@@ -1,0 +1,54 @@
+global = sur toute la sequance 
+local  = sur un bout de la sequance
+
+question 1		
+ ce sont des sequances proteiques
+myster.lentgh=175
+pl6.lentgh=351
+
+88  a  177
+// : = indentique .=similaire
+sur la partie terminal de mystere il y a un domaine exactement pareil que sur pl6
+
+avec match on optient 88 avec le meme 
+87 avec my(1-87)-pl6(265-352)
+
+ex2
+
+le resultat du blast nous indique que il fait partit de la fammille des prion
+les prions sont des proteines particulieres
+ 
+les hit sont classé avec les E value 7x10^-151
+=quell est la probat de trouver ca dans une liste random
+c'est pas un alignement qui arrive frequament
+
+en augmentant le seuil on finit par trouver un acid avec une E value de 72
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
