@@ -24,15 +24,15 @@ f.close()
 #uniformisation chaine
 seq = seq.lower()
 taille = len(seq)
-div = 400
+div = 1000
 stl = 0
 endl = int(div)
 i =0
-delta=1
+delta=5
 #canvas 
 fenetre = Tk()
 canvas = Canvas(fenetre, width = taille/800 * 10, height = 300, background = 'white')
-
+# canvas.create_line(0,250,taille/800*10,250)
 while (stl < taille - div ) :
 	if(endl <= taille) :
 		cur = seq[stl:endl]
@@ -52,11 +52,11 @@ while (stl < taille - div ) :
 	if(i==0) : 
 		op2 = operation
 		op22=operation2
-	print operation - 100
+	#~ print operation - 100
 	q = 250
 	
 	ligne1= canvas.create_line(i-delta, q-op2, i, q- operation )
-	ligne2= canvas.create_line(i-delta, q-op22, i, q- operation2+1 )
+	ligne2= canvas.create_line(i-delta, q-op22-100, i,q- operation2+1 -100)
 	stl += int(div)
 	endl += int(div)
 	i+=delta
